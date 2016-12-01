@@ -19,4 +19,4 @@ if __name__ == '__main__':
     except json.decoder.JSONDecodeError:
         print('Файл не является JSON. Попробуйте ещё раз.')
     except UnicodeDecodeError:
-        print('Ошибка кодировки. Данный должны быть в UTF-8')
+        print('Ошибка кодировки. Данные должны быть в UTF-8')
